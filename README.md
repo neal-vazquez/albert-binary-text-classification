@@ -14,6 +14,8 @@ This Python script is designed to perform binary text classification using the A
 
 ### Deep Learning
 1. **PyTorch**: The primary library for tensor computations and building the ALBERT model.
+2. **Transformers**: Used for importing the ALBERT model architecture and tokenizer. This library provides a simple interface for using pre-trained language models.
+3. **Scikit-learn (sklearn)**: A machine learning library used for various data mining and data analysis tasks. In this script, it's likely used for splitting the dataset and evaluating the model's performance.
     - **torch.nn**: A sub-library containing modules and extensible classes for building neural networks.
 
 ## Script Structure
@@ -31,4 +33,4 @@ This Python script is designed to perform binary text classification using the A
 Your Name
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details.
